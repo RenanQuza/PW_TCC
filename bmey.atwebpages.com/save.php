@@ -1,13 +1,13 @@
 <?php
 include "Conexao.php";
-   class cadastro{
+   class save{
       private $id;
       private $save_fase; 
       private $save_item;
 
       public static function ListarTodos(){
          $conexao = new conexao();
-         $sql = "SELECT * FROM cadastro";
+         $sql = "SELECT * FROM save";
          $dados = $conexao->Consultar($sql);
          return $dados;
       }
