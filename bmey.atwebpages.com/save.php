@@ -21,7 +21,7 @@ include "Conexao.php";
        private int $save_fase; 
        private BIT $save_item; 
 
-       public function __construct(int $save_fase; ,int $save_item;){
+       public function __construct(int $save_fase; int $save_item;){
             $this->save_fase = $save_fase;
             $this->save_item = $save_item; 
 
